@@ -36,7 +36,7 @@ img {vertical-align: middle;}
 
 /* Text box */
 #grad1 {
-  height: 50px;
+  height: 75px;
   background-color: black; /* For browsers that do not support gradients */
   background-image: linear-gradient(to bottom right, black, white); /* Standard syntax (must be last) */
 }
@@ -140,8 +140,8 @@ I'm a junior data scientist located in SF, working on certification with Lambda 
 updates to this portfolio on my Twitter and Github.<br>
 <br>
 <hr>
-Gmail: [tristap98](mailto:tristap98@gmail.com)<br>
-Github.io: [trista-paul](https://github.com/trista-paul)<br>
-Medium: [Trista P](https://medium.com/@tristap98)<br>
+Gmail: <a href= "mailto:tristap98@gmail.com">Tristap98</a><br>
+Github.io: <a href = "https://github.com/trista-paul">trista=paul</a><br>
+Medium: <a href="https://medium.com/@tristap98">Trista P</a><br>
 Twitter: in progress<br>
 Linkedin: in progress<br>
