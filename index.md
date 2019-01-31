@@ -34,6 +34,13 @@ img {vertical-align: middle;}
   top: 0;
 }
 
+/* Text box */
+#grad1 {
+  height: 50px;
+  background-color: black; /* For browsers that do not support gradients */
+  background-image: linear-gradient(to bottom right, black, white); /* Standard syntax (must be last) */
+}
+
 /* The dots/bullets/indicators */
 .dot {
   height: 15px;
@@ -81,18 +88,21 @@ img {vertical-align: middle;}
   <div class="numbertext">1 / 3</div>
   <img src="Week3Sprint.png" style="width:100%">
   <div class="text">[From Sprint 3 Challenge](https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv)</div>
+  <div id="grad1"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="Week4%203.png" style="width:100%">
   <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
+  <div id="grad1"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="Week4%203.png" style="width:100%">
   <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
+  <div id="grad1"></div>
 </div>
 
 </div>
