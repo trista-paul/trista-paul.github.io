@@ -100,8 +100,8 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
-  <img src="Week4%203.png" style="width:100%">
-  <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
+  <img src="IMG_1411.JPG" style="width:100%">
+  <div class="text">Portrait of the Artist as a Young Data Scienttist</div>
   <div id="grad1"></div>
 </div>
 
