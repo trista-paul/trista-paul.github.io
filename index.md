@@ -89,6 +89,12 @@ img {vertical-align: middle;}
   <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
 </div>
 
+<div class="mySlides fade">
+  <div class="numbertext">2 / 3</div>
+  <img src="https://github.com/trista-paul/trista-paul.github.io/blob/master/Week4%203.png" style="width:100%">
+  <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
+</div>
+
 </div>
 <br>
 
