@@ -9,8 +9,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 1000px;
-  max-height: 500px;
+  width: 1000px;
+  height: 300px;
   position: relative;
   margin: auto;
 }
