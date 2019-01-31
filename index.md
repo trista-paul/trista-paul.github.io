@@ -87,14 +87,14 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="Week3Sprint.png" style="width:100%">
-  <div class="text">[From Sprint 3 Challenge](https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv)</div>
+  <div class="text">From <a href = "https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv">Sprint 3 Challenge</a></div>
   <div id="grad1"></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="Week4%203.png" style="width:100%">
-  <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
+  <div class="text"> From < a href = "https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs">Intro to Bayes Notebook</a></div>
   <div id="grad1"></div>
 </div>
 
@@ -141,7 +141,7 @@ updates to this portfolio on my Twitter and Github.<br>
 <br>
 <hr>
 Gmail: <a href= "mailto:tristap98@gmail.com">Tristap98</a><br>
-Github.io: <a href = "https://github.com/trista-paul">trista=paul</a><br>
+Github.io: <a href = "https://github.com/trista-paul">trista-paul</a><br>
 Medium: <a href="https://medium.com/@tristap98">Trista P</a><br>
 Twitter: in progress<br>
 Linkedin: in progress<br>
