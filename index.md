@@ -1,4 +1,3 @@
-###
 #make a sidebar for projects, blog
 #I'd like to make an interactive slide that shows visualizations and click to project
 ![he's doing Tamagotchi-squared tests, a pun that only works if you mispronounce one of the words](https://github.com/trista-paul/trista-paul.github.io/blob/master/112625%20(2).png "Test")<br>
