@@ -89,12 +89,6 @@ img {vertical-align: middle;}
   <div class="text">[From Intro to Bayes Notebook](https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs)</div>
 </div>
 
-<div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="img_mountains_wide.jpg" style="width:100%">
-  <div class="text">Caption Three</div>
-</div>
-
 </div>
 <br>
 
@@ -132,5 +126,6 @@ updates to this portfolio on my Twitter and Github.<br>
 <hr>
 Gmail: [tristap98](mailto:tristap98@gmail.com)<br>
 Github.io: [trista-paul](https://github.com/trista-paul)<br>
+Medium: [Trista P](https://medium.com/@tristap98)<br>
 Twitter: in progress<br>
 Linkedin: in progress<br>
