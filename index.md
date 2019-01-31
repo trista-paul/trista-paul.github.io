@@ -79,8 +79,8 @@ img {vertical-align: middle;}
 
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
-  <img src="img_nature_wide.jpg" style="width:100%">
-  <div class="text">Caption One</div>
+  <img src="https://github.com/trista-paul/trista-paul.github.io/blob/master/Week3Sprint.png" style="width:100%">
+  <div class="text">[From Sprint 3 Challenge](https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv)</div>
 </div>
 
 <div class="mySlides fade">
