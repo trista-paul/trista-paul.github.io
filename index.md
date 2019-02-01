@@ -10,8 +10,36 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   maxwidth: 1000px;
+  maxheight:300px;
   position: relative;
   margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 /* Caption text */
@@ -87,23 +115,26 @@ img {vertical-align: middle;}
 <div class="mySlides fade">
   <div class="numbertext">1 / 3</div>
   <img src="Week3Sprint.png" style="width:100%">
-  <div class="text">From <a href = "https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv">Sprint 3 Challenge</a></div>
   <div id="grad1"></div>
+   <div class="text">From <a href = "https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv">Sprint 3 Challenge</a></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="Week4%203.png" style="width:100%">
-  <div class="text"> From <a href = "https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs">Intro to Bayes Notebook</a></div>
   <div id="grad1"></div>
+  <div class="text"> From <a href = "https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs">Intro to Bayes Notebook</a></div>
 </div>
 
 <div class="mySlides fade">
   <div class="numbertext">2 / 3</div>
   <img src="IMG_1411.JPG" style="width:100%">
-  <div class="text">Portrait of the Artist as a Young Data Scienttist</div>
   <div id="grad1"></div>
+  <div class="text">Portrait of the Artist as a Young Data Scienttist</div>
 </div>
+
+<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
 <br>
@@ -114,19 +145,28 @@ img {vertical-align: middle;}
   <span class="dot"></span> 
 </div>
 
-<script>
-var slideIndex = 0;
-showSlides();
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
 
-function showSlides() {
+<script>
+var slideIndexauto = 0;
+showSlides();
+  
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function showSlidesauto() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}    
+  slideIndexauto++;
+  if (slideIndexauto > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
@@ -134,6 +174,31 @@ function showSlides() {
   dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+
 </script>
 
 I'm a junior data scientist located in SF, working on certification with Lambda school. I specialize in analysis, visualization and breaking down the world of data to the corporate audience. You can follow
