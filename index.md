@@ -166,12 +166,12 @@ function showSlidesauto() {
     slides[i].style.display = "none";  
   }
   slideIndexauto++;
-  if (slideIndexauto > slides.length) {slideIndex = 1}    
+  if (slideIndexauto > slides.length) {slideIndexauto = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndex-1].style.display = "block";  
-  dots[slideIndex-1].className += " active";
+  slides[slideIndexauto-1].style.display = "block";  
+  dots[slideIndexauto-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
