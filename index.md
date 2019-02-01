@@ -152,20 +152,6 @@ img {vertical-align: middle;}
 </div>
 
 <script>
-var slideIndexauto = 0;
- showSlidesauto();
-
-function showSlidesauto() {
-  var i;
-  var slides = document.getElementsByClassName("mySlides");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";  
-  }
-  slideIndex++;
-  if (slideIndexauto > slides.length) {slideIndex = 1}
-  slides[slideIndexauto-1].style.display = "block";
-  setTimeout(showSLidesauto, 5000);
-  }
   
 var slideIndex = 1;
 showSlides(slideIndex);
