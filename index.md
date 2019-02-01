@@ -152,26 +152,24 @@ img {vertical-align: middle;}
 </div>
 
 <script>
-var slideIndexauto = 0;
-showSlides();
   
 var slideIndex = 1;
 showSlides(slideIndex);
 
-function showSlidesauto() {
+function showSlides() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
   for (i = 0; i < slides.length; i++) {
     slides[i].style.display = "none";  
   }
-  slideIndexauto++;
-  if (slideIndexauto > slides.length) {slideIndexauto = 1}    
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
   for (i = 0; i < dots.length; i++) {
     dots[i].className = dots[i].className.replace(" active", "");
   }
-  slides[slideIndexauto-1].style.display = "block";  
-  dots[slideIndexauto-1].className += " active";
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
   setTimeout(showSlides, 5000); // Change image every 5 seconds
 }
 
