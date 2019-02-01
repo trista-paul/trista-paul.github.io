@@ -10,7 +10,7 @@ img {vertical-align: middle;}
 /* Slideshow container */
 .slideshow-container {
   maxwidth: 100px;
-  height:100px;
+  maxheight:100px;
   position: relative;
   margin: auto;
 }
