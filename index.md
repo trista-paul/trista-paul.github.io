@@ -39,7 +39,7 @@ img {vertical-align: middle;}
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  background-color: rgba(0,0,0,0.4);
 }
 
 /* Caption text */
@@ -127,7 +127,7 @@ img {vertical-align: middle;}
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">3 / 3</div>
   <img src="IMG_1411.JPG" style="width:100%">
   <div id="grad1"></div>
   <div class="text">Portrait of the Artist as a Young Data Scienttist</div>
@@ -181,7 +181,7 @@ function currentSlide(n) {
   showSlides(slideIndex = n);
 }
 
-function showSlides(n) {
+function showSlides2(n) {
   var i;
   var slides = document.getElementsByClassName("mySlides");
   var dots = document.getElementsByClassName("dot");
