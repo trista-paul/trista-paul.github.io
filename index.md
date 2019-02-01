@@ -155,17 +155,6 @@ img {vertical-align: middle;}
 var slideIndexauto = 0;
  showSlidesauto();
 
-var slideIndex = 1;
-showSlides(slideIndex);
-
-function plusSlides(n) {
-  showSlides(slideIndex += n);
-}
-
-function currentSlide(n) {
-  showSlides(slideIndex = n);
-}
-
 function showSlidesauto() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -177,6 +166,17 @@ function showSlidesauto() {
   slides[slideIndexauto-1].style.display = "block";
   setTimeout(showSLidesauto, 5000);
   }
+  
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
 
 function showSlides(n) {
   var i;
