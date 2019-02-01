@@ -9,8 +9,8 @@ img {vertical-align: middle;}
 
 /* Slideshow container */
 .slideshow-container {
-  maxwidth: 1000px;
-  maxheight:300px;
+  width: 983px;
+  maxheight:313px;
   position: relative;
   margin: auto;
 }
@@ -170,7 +170,7 @@ function showSlides() {
   }
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  setTimeout(showSlides, 5000); // Change image every 5 seconds
+  setTimeout(showSlides, 10000); // Change image every 10 seconds
 }
 
 function plusSlides(n) {
