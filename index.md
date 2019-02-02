@@ -145,12 +145,6 @@ img {vertical-align: middle;}
   <span class="dot"></span> 
 </div>
 
-<div style="text-align:center">
-  <span class="dot" onclick="currentSlide(1)"></span> 
-  <span class="dot" onclick="currentSlide(2)"></span> 
-  <span class="dot" onclick="currentSlide(3)"></span> 
-</div>
-
 <script>
   
 var slideIndex = 1;
@@ -179,7 +173,6 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
 }
-
 
 </script>
 
