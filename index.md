@@ -113,22 +113,29 @@ img {vertical-align: middle;}
 <div class="slideshow-container">
 
 <div class="mySlides fade">
-  <div class="numbertext">1 / 3</div>
-  <img src="Week3Sprint.png" style="width:100%">
+  <div class="numbertext">1 / 4</div>
+  <img src="project7.png" style="width:100%">
   <div id="grad1"></div>
-   <div class="text">From <a href = "https://colab.research.google.com/drive/1jgUGKPE0KGt-6CWH1fgkNXxzqkq9SLcv">Sprint 3 Challenge</a></div>
+   <div class="text">From <a href = "https://medium.com/@tristap98/movie-night-coming-up-analysis-of-imdb-ratings-7f290cac2e7f">Analysis of Bad IMDb Ratings</a></div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">2 / 3</div>
+  <div class="numbertext">2 / 4</div>
   <img src="Week4%203.png" style="width:100%">
   <div id="grad1"></div>
   <div class="text"> From <a href = "https://colab.research.google.com/drive/1-isexPVhAmChlHJ6efcOVtzTgxEfpmFs">Intro to Bayes Notebook</a></div>
 </div>
 
 <div class="mySlides fade">
-  <div class="numbertext">3 / 3</div>
-  <img src="IMG_1411.JPG" style="width:100%">
+  <div class="numbertext">3 / 4</div>
+  <img src="project6.png" style="width:100%">
+  <div id="grad1"></div>
+  <div class="text"> From <a href = "https://medium.com/@tristap98/movie-night-coming-up-analysis-of-imdb-ratings-7f290cac2e7f">Analysis of Bad IMDb Ratings</a></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext">4 / 4</div>
+  <img src="IMG_1411%20(2).JPG" style="width:100%">
   <div id="grad1"></div>
   <div class="text">Portrait of the Artist as a Young Data Scienttist</div>
 </div>
@@ -143,6 +150,7 @@ img {vertical-align: middle;}
   <span class="dot"></span> 
   <span class="dot"></span> 
   <span class="dot"></span> 
+  <span class="dot"></span>
 </div>
 
 <script>
