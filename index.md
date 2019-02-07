@@ -1,7 +1,7 @@
 <html>
 <head>
  
-<a href= "https://trista-paul.github.io/">Home</a> | <a href= "">Projects</a><br>
+<a href= "https://trista-paul.github.io/">Home</a> | <a href= "https://trista-paul.github.io/projects">Projects</a><br>
 <hr>
   
   
