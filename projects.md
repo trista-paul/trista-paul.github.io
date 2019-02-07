@@ -24,12 +24,14 @@
 <body>
 
 <h2>Projects</h2>
+<a href= "https://trista-paul.github.io/">Home</a> | <a href= "https://trista-paul.github.io/projects">Projects</a><br>
+<hr>
 
 <div class="row">
-  <div class="column" style="background-color:#aaa;">
+  <div class="column">
   	<img src = "project6.png">
   </div>
-  <div class="column" style="background-color:#bbb;">
+  <div class="column">
     <h2><a href = "https://medium.com/@tristap98/movie-night-coming-up-an-analysis-of-what-goes-into-bad-imdb-ratings-7f290cac2e7f"> Movie Night Coming Up? An Analysis of Bad IMDb Ratings</a><br></h2>
     <p>Ever wonder who the worst director by average rating of all their movies is? In my first data science project I dive into IMDb's datasets and rank directors and genres, graph how runtime effects ratings and analyze movie ratings over the decades.</p>
   </div>
