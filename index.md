@@ -191,5 +191,5 @@ updates to this portfolio on my Twitter and Github.<br>
 Gmail: <a href= "mailto:tristap98@gmail.com">Tristap98</a><br>
 Github.io: <a href = "https://github.com/trista-paul">trista-paul</a><br>
 Medium: <a href="https://medium.com/@tristap98">Trista P</a><br>
-Twitter: in progress<br>
+Twitter:<a href="https://twitter.com/TristaPaul3">@TristaPaul3<br>
 Linkedin: in progress<br>
