@@ -194,8 +194,8 @@ I'm a junior data scientist located in SF, working on certification with Lambda 
 updates to this portfolio on my Twitter and Github.<br>
 <br>
 <hr>
-Gmail: <a href= "mailto:tristap98@gmail.com">Tristap98</a><br>
+Email: <a href= "mailto:TristaGPaul@protonmail.com"></a>TristaGPaul@protonmail.com<br>
 Github.io: <a href = "https://github.com/trista-paul">trista-paul</a><br>
-Medium: <a href="https://medium.com/@tristap98">Trista P</a><br>
-Twitter: <a href="https://twitter.com/TristaPaul3">@TristaPaul3</a><br>
-Linkedin: in progress<br>
+Medium: <a href="https://medium.com/@tristap98">Trista G. Paul</a><br>
+Twitter: <a href="https://twitter.com/TristaGPaul">@TristaGPaul</a><br>
+Linkedin: <a hrer="https://www.linkedin.com/in/trista-g-paul-29131217b/">Trista G Paul<br>
